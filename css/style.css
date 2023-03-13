@@ -1,0 +1,106 @@
+:root {
+  --prymary-font-family: 'Roboto', sans-serif;
+  --primary-text-color: #2c2c2c;
+  --active-text-color: #bbf330;
+  --button-background-color: #bbf330;
+  --placeholder-text-color: #505050;
+  --primary-background-color: #ffe550;
+}
+
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-family: var(--prymary-font-family);
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* ===============COMPONENT================= */
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.order-button {
+  background-color: var(--button-background-color);
+  font-size: 13px;
+  font-weight: 500;
+  border: 0px;
+  border-radius: 30px;
+  min-width: 98px;
+  height: 32px;
+  padding: 6px 18px;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.order-button:focus,
+.order-button:hover {
+  cursor: pointer;
+}
+/* ===================HEADER===================== */
+.menu-link {
+  font-style: inherit;
+  color: inherit;
+  font-weight: inherit;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--active-text-color);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.menu {
+  display: flex;
+  width: 349px;
+}
+.menu-item:not(:last-child) {
+  margin-right: 28px;
+}
+.container {
+  display: flex;
+  max-width: 1248px;
+  padding: 10px 0;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  outline: 2px dashed #f44336;
+}
+
+.logo {
+  margin-right: auto;
+}

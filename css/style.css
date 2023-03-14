@@ -93,14 +93,81 @@ body {
 }
 .container {
   display: flex;
-  max-width: 1248px;
-  padding: 10px 0;
+  max-width: 1280px;
+  padding: 10px 16px;
   margin-right: auto;
   margin-left: auto;
   align-items: center;
+  border: 0;
   outline: 2px dashed #f44336;
 }
 
 .logo {
   margin-right: auto;
+  /* display: inline-block; */
+}
+
+/* .navigation {
+  display: inline-block;
+  height: 52; 
+ } */
+/* ================================HERO=============== */
+.hero > .container {
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+  /* min-height: 608px; */
+}
+.text-block {
+  /* margin-top: 159px; */
+  max-width: inherit;
+  min-height: 213px;
+}
+.text-block-header {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  /* or 58px */
+}
+
+.hero-left-side {
+  display: inline-block;
+  margin-top: 159px;
+  /* margin-right: 125px; */
+  padding-top: 0;
+  max-width: 511px;
+  vertical-align: top;
+  border: 0;
+  outline: 2px dashed #0ed467;
+}
+
+.hero-left-side > .order-button {
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.text-block-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: 28px;
+  /* or 24px */
+}
+
+.hero-right-side {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0;
+  border: 0;
+  width: 733px;
+  outline: 2px dashed red;
+}
+
+.hero-image {
+  /* display: inline;  */
+  margin: 40px;
+  line-height: 0;
+  margin-left: auto;
+  border-radius: 269px;
 }

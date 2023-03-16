@@ -27,9 +27,14 @@
   <body>
     <!-- header  -->
     <header class="page-header">
-      <dev class="container">
-        <a class="logo" href="./index.html"
-          ><img src="./images/logo.svg" width="66" height="52" alt="logo"
+      <div class="container">
+        <a class="logo link" href="./index.html"
+          ><img
+            src="./images/logo.svg"
+            class="logo-image"
+            width="66"
+            height="52"
+            alt="logo"
         /></a>
         <nav class="navigation">
           <ul class="navigation-menu list">
@@ -51,7 +56,7 @@
           </ul>
         </nav>
         <button class="order-button" type="button">Order Now</button>
-      </dev>
+      </div>
     </header>
     <main>
       <!-- hero -->
@@ -138,142 +143,235 @@
         </div>
       </section>
       <!-- Favorites -->
-      <section>
-        <h2>Some of Our Favorites</h2>
-        <p>Looking for something delicious?</p>
-        <ul>
-          <li>
-            <img
-              src="./images/gamburger.jpg"
-              width="315"
-              height="315"
-              alt="gamburger"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/pasta.jpg"
-              width="315"
-              height="315"
-              alt="pasta"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/pizza.jpg"
-              width="315"
-              height="315"
-              alt="pizza"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/chicken.jpg"
-              width="315"
-              height="315"
-              alt="chiken"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/salat.jpg"
-              width="315"
-              height="315"
-              alt="salat"
-            />
-          </li>
-          <li>
-            <img
-              src="./images/borshch.jpg"
-              width="315"
-              height="315"
-              alt="borsch"
-            />
-          </li>
-        </ul>
+      <section class="favorites">
+        <div class="container">
+          <h2 class="favorite-header second-level-header">
+            Some of Our Favorites
+          </h2>
+          <p class="favorites-text">Looking for something delicious?</p>
+          <ul class="favorites-list list">
+            <li class="favorites-list-item">
+              <img
+                src="./images/gamburger.jpg"
+                class="favorites-list-item-image"
+                width="315"
+                height="315"
+                alt="gamburger"
+              />
+            </li>
+            <li class="favorites-list-item">
+              <img
+                src="./images/pasta.jpg"
+                class="favorites-list-item-image"
+                width="315"
+                height="315"
+                alt="pasta"
+              />
+            </li>
+            <li class="favorites-list-item">
+              <img
+                src="./images/pizza.jpg"
+                class="favorites-list-item-image"
+                width="315"
+                height="315"
+                alt="pizza"
+              />
+            </li>
+            <li class="favorites-list-item">
+              <img
+                src="./images/chicken.jpg"
+                class="favorites-list-item-image"
+                width="315"
+                height="315"
+                alt="chiken"
+              />
+            </li>
+            <li class="favorites-list-item">
+              <img
+                src="./images/salat.jpg"
+                class="favorites-list-item-image"
+                width="315"
+                height="315"
+                alt="salat"
+              />
+            </li>
+            <li class="favorites-list-item">
+              <img
+                src="./images/borshch.jpg"
+                class="favorites-list-item-image"
+                width="315"
+                height="315"
+                alt="borsch"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Customers Say -->
-      <section>
-        <h2>What our Customers Say</h2>
-        <p>
-          Don't just take our word for it - see what our satisfied customers
-          have to say
-        </p>
-        <ul>
-          <li>
-            <p>
-              “The Best app I have used to order food in a while, so many
-              options to choose from too, I would recommend to a freind, No
-              questions asked”
+      <section class="customer">
+        <div class="container">
+          <div class="customer-block">
+            <h2 class="customer-header second-level-header">
+              What our Customers Say
+            </h2>
+            <p class="customer-text">
+              Don't just take our word for it - see what our satisfied customers
+              have to say
             </p>
-            <img
-              src="./images/avatar1.svg"
-              width="48"
-              height="48"
-              alt="avatar"
-            />
-            <h3>Sumith Shah</h3>
-            <p>Some Dude</p>
-          </li>
-          <li>
-            <p></p>
-            <img
-              src="./images/avatar2.svg"
-              width="48"
-              height="48"
-              alt="avatar"
-            />
-            <h3>Sumith Shah</h3>
-            <p>Some Dude</p>
-          </li>
-        </ul>
+            <ul class="customer-list list">
+              <li class="customer-list-item">
+                <p class="customer-list-item-text">
+                  “The Best app I have used to order food in a while, so many
+                  options to choose from too, I would recommend to a freind, No
+                  questions asked”
+                </p>
+                <div class="customer-card">
+                  <div class="customer-card-left-side">
+                    <img
+                      src="./images/avatar1.svg"
+                      class="customer-card-image"
+                      width="48"
+                      height="48"
+                      alt="avatar"
+                    />
+                  </div>
+
+                  <div class="customer-card-right-side">
+                    <h3 class="customer-card-name third-level-header">
+                      Sumith Shah
+                    </h3>
+                    <p class="customer-card-whois">Some Dude</p>
+                  </div>
+                </div>
+              </li>
+              <li class="customer-list-item">
+                <p class="customer-list-item-text">
+                  “The ease with which I can just go in and order what i want
+                  was amazing, It has been a very pleasant experience ordering
+                  from this app”
+                </p>
+                <div class="customer-card">
+                  <div class="customer-card-left-side">
+                    <img
+                      src="./images/avatar2.svg"
+                      class="customer-card-image"
+                      width="48"
+                      height="48"
+                      alt="avatar"
+                    />
+                  </div>
+                  <div class="customer-card-right-side">
+                    <h3 class="customer-card-name third-level-header">
+                      Sumith Shah
+                    </h3>
+                    <p class="customer-card-whois">Some Dude</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
       <!-- Subscribe -->
-      <section>
-        <h2>Subscribe To Get Special Offers</h2>
-        <p>
-          Order now and receive 10% off your first meal with Enjoy Your Favorite
-          Food From Anywhere.
-        </p>
-        <input type="email" placeholder="Enter your email" />
-        <button type="button">Subscribe</button>
-        <img src="./images/banan.jpg" width="608" height="266" alt="banan" />
+      <section class="subscribe">
+        <div class="container">
+          <div class="subscribe-left-side">
+            <h2 class="subscribe-header second-level-header">
+              Subscribe To Get Special Offers
+            </h2>
+            <p class="subscribe-text">
+              Order now and receive 10% off your first meal with Enjoy Your
+              Favorite Food From Anywhere.
+            </p>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="input-field-email"
+            />
+            <button class="button-subscribe order-button" type="button">
+              Subscribe
+            </button>
+          </div>
+          <div class="subscribe-right-side">
+            <img
+              src="./images/banan.jpg"
+              class="subscribe-image"
+              width="608"
+              height="266"
+              alt="banan"
+            />
+          </div>
+        </div>
       </section>
     </main>
     <!-- footer -->
 
-    <footer>
+    <footer class="page-footer">
       <!-- block menu -->
-      <div>
-        <a href="./index.html"
-          ><img src="./images/logo.svg" width="66" height="52" alt="logo"
-        /></a>
-        <nav>
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Service</a></li>
-            <li><a href="">Menu</a></li>
-            <li><a href="">Contact</a></li>
+      <div class="container">
+        <div class="page-footer-menu-logo">
+          <a href="./index.html" class="logo link"
+            ><img
+              src="./images/logo.svg"
+              class="logo-image"
+              width="66"
+              height="52"
+              alt="logo"
+          /></a>
+          <nav class="navigation">
+            <ul class="navigation-menu list">
+              <li class="navigation-menu-item">
+                <a class="navigation-menu-link link" href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="navigation-menu-item">
+                <a class="navigation-menu-link link" href="">About</a>
+              </li>
+              <li class="navigation-menu-item">
+                <a class="navigation-menu-link link" href="">Service</a>
+              </li>
+              <li class="navigation-menu-item">
+                <a class="navigation-menu-link link" href="">Menu</a>
+              </li>
+              <li class="navigation-menu-item">
+                <a class="navigation-menu-link link" href="">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- block Subscribe -->
+        <div class="page-footer-subscribe">
+          <p class="page-footer-subscribe-text">Subscribe</p>
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="input-field-email"
+          /><button type="button" class="button-subscribe order-button">
+            Subscribe
+          </button>
+          <p class="page-footer-after-subscribe-text">
+            By subscribing you agree to with our
+            <a href="" class="link">Privacy Policy</a>
+          </p>
+        </div>
+        <!-- Block policy -->
+        <div class="footer-policy-block">
+          <ul class="policy-block-list list">
+            <li class="policy-block-list-item">
+              <a href="" class="policy-block-link link">Privacy Policy</a>
+            </li>
+            <li class="policy-block-list-item">
+              <a href="" class="policy-block-link link">Terms of Service</a>
+            </li>
+            <li class="policy-block-list-item">
+              <a href="" class="policy-block-link link">Cookies Settings</a>
+            </li>
           </ul>
-        </nav>
-      </div>
-      <!-- block Subscribe -->
-      <div>
-        <p>Subscribe</p>
-        <input type="email" placeholder="Enter your email" /><button></button>
-        <p>
-          By subscribing you agree to with our <a href="">Privacy Policy</a>
-        </p>
-      </div>
-      <!-- Block policy -->
-      <div>
-        <ul>
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">Terms of Service</a></li>
-          <li><a href="">Cookies Settings</a></li>
-        </ul>
-        <p>2022 FoodSta. All right reserved.</p>
+          <p class="footer-all-right-resrved">
+            2022 FoodSta. All right reserved.
+          </p>
+        </div>
       </div>
     </footer>
   </body>

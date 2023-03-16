@@ -21,7 +21,11 @@
   --primary-text-color: var(--color-black);
   --accent-text-color: var(--color-button-green);
   --button-background-color: var(--color-button-green);
+  --button-secondary-background-color: #fff;
+  --button-border-color: var(--color-dark-green);
   --primary-background-color: var(--color-yellow-main);
+  --secondary-background-color: var(--color-white);
+  --input-placeholder-text-color: #505050;
 }
 
 .effect-style-meny-shadow {
@@ -67,7 +71,7 @@ ol {
 
 img {
   display: block;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 button {
@@ -139,7 +143,7 @@ body {
 .navigation-menu {
   display: flex;
   outline: 2px dashed green;
-  background-color: orchid;
+  /* background-color: orchid; */
 }
 
 .page-header .order-button {
@@ -290,6 +294,224 @@ body {
   font-size: 14px;
   line-height: 1.5;
 }
-.offerigns .order-button {
-  margin-top: 32px;
+.offerings .order-button {
+  /* margin-top: 32px; */
+  background-color: var(--button-secondary-background-color);
+  border: 2px solid var(--button-border-color);
+}
+
+/* =================FAVORITES============= */
+.favorites .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.favorite-header {
+  margin-bottom: 20px;
+  line-height: 1.17;
+}
+
+.favorites-text {
+  margin-bottom: 55px;
+
+  line-height: 1.19;
+  outline: 2px dashed red;
+}
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -15px;
+  margin-right: -15px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  outline: 2px dashed red;
+}
+.favorites-list-item {
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.favorites-list-item-image {
+  margin-top: 41px;
+  margin-right: 40px;
+  margin-bottom: 41px;
+  margin-left: 40px;
+}
+/* ====================CUSTOMER SAY============ */
+.customer .container {
+  text-align-last: left;
+}
+.customer-block {
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-right: 139px;
+  width: 1141px;
+  outline: 2px dashed green;
+}
+.customer-header {
+  line-height: 1.07;
+  margin-bottom: 20px;
+}
+
+.customer-text {
+  line-height: 1.19;
+  margin-bottom: 32px;
+}
+.customer-list {
+  display: flex;
+}
+
+.customer-list-item {
+  width: 501px;
+  outline: 2px dashed green;
+}
+
+.customer-list-item:first-child {
+  margin-right: 139px;
+}
+.customer-list-item-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+
+  margin-top: 58px;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-bottom: 40px;
+}
+.customer-card {
+  display: flex;
+  width: 160px;
+  /* margin-bottom: 200px; */
+  align-items: center;
+  outline: 2px dashed green;
+
+  margin-left: 14px;
+  margin-bottom: 14px;
+}
+
+.customer-card-left-side {
+  /* display: inline-block; */
+  margin-top: 2px;
+  margin-right: 16px;
+  margin-bottom: 2px;
+  outline: 2px dashed red;
+}
+.customer-card-right-side {
+  /* display: inline-block;
+  margin-top: 6.35px;
+  margin-right: 18px;
+  margin-bottom: 5.73px; */
+  outline: 2px dashed red;
+}
+.customer-card-name {
+  font-weight: 500;
+  font-size: 14px;
+  /* margin-top: -2.35px; */
+}
+
+.customer-card-whois {
+  font-size: 14px;
+}
+
+/* =============SUBSCRIBE================= */
+
+.subscribe .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -66px;
+}
+.subscribe-left-side {
+  margin-top: 46px;
+}
+.subscribe-header {
+  margin-bottom: 20px;
+}
+.subscribe-text {
+  width: 532px;
+  margin-bottom: 20px;
+}
+.button-subscribe.order-button {
+  width: 103px;
+  height: 42px;
+  padding: 11px 22px;
+}
+.input-field-email {
+  width: 395px;
+  height: 42px;
+  margin-right: 32px;
+  color: var(--primary-text-color);
+  background: var(--secondary-background-color);
+  border: 0.854167px solid var(--primary-background-color);
+  border-radius: 30px;
+}
+
+/* input[type=email]:focus {
+  border: 0.854167px solid var(--primary-background-color);
+} */
+
+.input-field-email::placeholder {
+  text-indent: 11px;
+  font-size: 12px;
+  color: var(--input-placeholder-text-color);
+}
+
+/* ===========================FOOTER=============== */
+
+.page-footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 100px;
+  min-height: 395px;
+}
+
+.page-footer-menu-logo {
+  display: flex;
+  width: 530px;
+  height: 72px;
+  align-items: center;
+  /* margin-right: 320px; */
+  outline: 2px dashed red;
+}
+
+.footer-policy-block {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  height: 14px;
+
+  font-size: 12px;
+  line-height: 1.17;
+
+  /* min-width: 1200px; */
+  outline: 2px dashed red;
+}
+.policy-block-list {
+  display: flex;
+  outline: 2px dashed blue;
+}
+
+.policy-block-list-item:not(:last-child) {
+  margin-right: 20px;
+}
+.policy-block-link.link,
+.page-footer-after-subscribe-text > .link {
+  color: var(--button-border-color);
+  text-decoration: underline;
+}
+.page-footer-subscribe-text {
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.page-footer-after-subscribe-text {
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 1.17;
+}
+.page-footer .input-field-email {
+  margin-right: 13px;
 }

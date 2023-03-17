@@ -327,6 +327,7 @@ body {
 .favorites-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 
   margin-top: -15px;
   margin-right: -15px;

@@ -146,7 +146,6 @@ body {
 .navigation-menu {
   display: flex;
   outline: 2px dashed green;
-  /* background-color: orchid; */
 }
 
 .page-header .order-button {
@@ -192,9 +191,6 @@ body {
   justify-content: space-between;
 }
 .text-block {
-  /* margin-top: 159px; */
-  /* max-width: inherit;
-  min-height: 213px; */
 }
 .text-block-header {
   font-weight: 700;
@@ -203,14 +199,10 @@ body {
 }
 
 .hero-left-side {
-  /* display: inline-block; */
   margin-top: 159px;
   margin-bottom: auto;
-  /* margin-right: 125px; */
   padding-top: 0;
   max-width: 511px;
-  /* vertical-align: top; */
-  /* border: 0; */
   outline: 2px dashed #0ed467;
 }
 
@@ -233,7 +225,8 @@ body {
   border-radius: 269px;
 }
 /* =====================OFFERINGS============= */
-
+.offerigns {
+}
 .offerings > .container {
   display: flex;
   justify-content: space-between;
@@ -273,6 +266,23 @@ body {
   margin-top: 0;
   max-width: 253px;
 }
+
+.offerigns-item::before {
+  content: '';
+  height: 56px;
+  display: block;
+  /* margin-right: auto; */
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #0ed467;
+}
+
+.offerigns-item:nth-child(1):before {
+  background-image: url(../images/icondeliv.svg);
+}
+.offerigns-item:nth-child(2):before {
+  background-image: url(../images/iconorder.svg);
+}
 .offerings-item-icon {
   margin-right: auto;
   margin-left: 0;
@@ -310,7 +320,6 @@ body {
 
 .favorites-text {
   margin-bottom: 55px;
-
   line-height: 1.19;
   outline: 2px dashed red;
 }
@@ -319,24 +328,17 @@ body {
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-
-  /* margin-top: -15px;
-  margin-right: -15px;
-  margin-bottom: -15px;
-  margin-left: -15px; */
   outline: 2px dashed red;
 }
 .favorites-list-item {
-  /* margin-top: 15px;
-  margin-right: 15px;
-  margin-bottom: 15px;
-  margin-left: 15px; */
+  background-image: url(../images/circle.svg);
 }
 .favorites-list-item-image {
   margin-top: 41px;
   margin-right: 40px;
   margin-bottom: 41px;
   margin-left: 40px;
+  border-radius: 50%;
 }
 /* ====================CUSTOMER SAY============ */
 .customer {
@@ -373,7 +375,6 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-
   margin-top: 58px;
   margin-left: 14px;
   margin-right: 14px;
@@ -382,32 +383,24 @@ body {
 .customer-card {
   display: flex;
   width: 160px;
-  /* margin-bottom: 200px; */
   align-items: center;
   outline: 2px dashed green;
-
   margin-left: 14px;
   margin-bottom: 14px;
 }
 
 .customer-card-left-side {
-  /* display: inline-block; */
   margin-top: 2px;
   margin-right: 16px;
   margin-bottom: 2px;
   outline: 2px dashed red;
 }
 .customer-card-right-side {
-  /* display: inline-block;
-  margin-top: 6.35px;
-  margin-right: 18px;
-  margin-bottom: 5.73px; */
   outline: 2px dashed red;
 }
 .customer-card-name {
   font-weight: 500;
   font-size: 14px;
-  /* margin-top: -2.35px; */
 }
 
 .customer-card-whois {

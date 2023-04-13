@@ -231,17 +231,55 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: -161px;
+  background-image: url(../images/apple-background.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 100%;
 }
 .offerings-image {
+  position: relative;
   border-radius: 262px;
+  z-index: 100;
 }
 .offerings-left-side {
+  position: relative;
   margin-top: auto;
   margin-left: 84px;
   margin-bottom: 145px;
   margin-right: auto;
   outline: 2px dashed red;
 }
+.offerings-left-side::before {
+  position: absolute;
+  top: 78px;
+  left: -60px;
+  /* transform: translate(-50%, 0); */
+
+  content: '';
+  display: block;
+  z-index: 99;
+  width: 502px;
+  height: 502px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+
+.offerings-left-side::after {
+  position: absolute;
+  top: 54px;
+  left: -84px;
+  /* transform: translate(-50%, 0); */
+
+  content: '';
+  display: block;
+  z-index: 98;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  background-color: var(--color-yellow-main);
+}
+
 .offerings-right-side {
   max-width: 573px;
   margin-top: 260px;
@@ -312,6 +350,7 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
+  outline: 2px dashed tomato;
 }
 .favorite-header {
   margin-bottom: 20px;
@@ -343,9 +382,18 @@ body {
 /* ====================CUSTOMER SAY============ */
 .customer {
   text-align-last: left;
-  padding-top: 100px;
-  padding-bottom: 200px;
 }
+
+.customer > .container {
+  /* margin-top: -100px; */
+  padding-top: 100px;
+  /* margin-bottom: -266px; */
+  padding-bottom: 200px;
+  background-image: url(../images/background-customer-say.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .customer-block {
   width: 1141px;
   outline: 2px dashed green;
@@ -409,9 +457,14 @@ body {
 
 /* =============SUBSCRIBE================= */
 
+.subscribe {
+}
+
 .subscribe .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  background-color: transparent;
   margin-top: -66px;
 }
 .subscribe-left-side {
@@ -428,6 +481,10 @@ body {
   width: 103px;
   height: 42px;
   padding: 11px 22px;
+}
+.subscribe-image {
+  /* display: none; */
+  background-color: transparent;
 }
 .input-field-email {
   width: 395px;

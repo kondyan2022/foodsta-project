@@ -20,6 +20,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
     <!-- My style add  -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -78,13 +90,45 @@
             <button class="order-button" type="button">Order Now</button>
           </div>
           <div class="hero-right-side">
-            <img
-              class="hero-image"
-              src="./images/plate.jpg"
-              width="528"
-              height="528"
-              alt="plate with food"
-            />
+            <div class="slider-list">
+              <div class="slider-image-item">
+                <img
+                  class="slider-image"
+                  src="./images/plate.jpg"
+                  width="528"
+                  height="528"
+                  alt="plate with food"
+                />
+              </div>
+              <div class="slider-image-item">
+                <img
+                  class="slider-image"
+                  src="./images/plate1.jpg"
+                  width="528"
+                  height="528"
+                  alt="plate with food"
+                />
+              </div>
+              <div class="slider-image-item">
+                <img
+                  class="slider-image"
+                  src="./images/plate2.jpg"
+                  width="528"
+                  height="528"
+                  alt="plate with food"
+                />
+              </div>
+            </div>
+            <button type="button" class="slider-button prev">
+              <svg class="slider-button-icon">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
+            </button>
+            <button type="button" class="slider-button next">
+              <svg class="slider-button-icon">
+                <use href="./images/icons.svg#icon-arrow"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </section>
@@ -366,5 +410,18 @@
         </div>
       </div>
     </footer>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>

@@ -1,0 +1,10 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-arrow" viewBox="0 0 53 32">
+<path d="M25.54 2.096l-23.6 24.766c-0.38 0.398-0.614 0.938-0.614 1.533s0.234 1.135 0.615 1.534l-0.001-0.001 0.027 0.027c0.373 0.392 0.9 0.636 1.483 0.636s1.109-0.244 1.482-0.635l0.001-0.001 22.222-23.324 22.213 23.324c0.374 0.391 0.899 0.634 1.482 0.634s1.108-0.243 1.481-0.634l0.001-0.001 0.027-0.027c0.38-0.398 0.614-0.938 0.614-1.533s-0.234-1.135-0.615-1.534l0.001 0.001-23.6-24.764c-0.405-0.425-0.976-0.69-1.609-0.69s-1.204 0.265-1.608 0.689l-0.001 0.001z"></path>
+</symbol>
+<symbol id="icon-charm_menu-hamburger-1" viewBox="0 0 47 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.96 29.154h42.965M1.96 15.615h42.965M1.96 2.077h42.965"></path>
+</symbol>
+</defs>
+</svg>

@@ -3,5 +3,6 @@ $(document).ready(function () {
     // setting-name: setting-value
     nextArrow: $('.next'),
     prevArrow: $('.prev'),
+    // infinite: false,
   });
 });
